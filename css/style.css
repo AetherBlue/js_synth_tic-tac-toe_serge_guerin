@@ -1,0 +1,64 @@
+body {
+    position: relative;
+    background-color: #868686;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.welcome {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.welcome h1 {
+    font-size: 75px;
+    font-weight: bold;
+}
+.welcome button {
+    font-size: 39px;
+    width: 150px;
+    height: 75px;
+}
+
+.game {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.game .game-title h1 {
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.game .game-grid {
+    position: relative;
+    width: 612px;
+    height: 612px;
+    padding: 6px;
+    background-color: darkorange;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.case {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: darkviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.case .pion {
+    font-size: 90px;
+}

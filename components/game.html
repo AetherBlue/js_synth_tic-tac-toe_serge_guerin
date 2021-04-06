@@ -1,0 +1,41 @@
+<div class="game">
+    <div class="game-title">
+        <h1>Tic Tac Toe</h1>
+    </div>
+    <div class="game-grid">
+        
+        <div  @click="case_11_click" class="case case-11">
+            <h1 class="pion">{{ c11_xo }}</h1>
+        </div>
+        <div @click="case_12_click" class="case case-12">
+            <h1 class="pion">{{ c12_xo }}</h1>
+        </div>
+        <div @click="case_13_click" class="case case-13">
+            <h1 class="pion">{{ c13_xo }}</h1>
+        </div>
+        <div @click="case_21_click" class="case case-21">
+            <h1 class="pion">{{ c21_xo }}</h1>
+        </div>
+        <div @click="case_22_click" class="case case-22">
+            <h1 class="pion">{{ c22_xo }}</h1>
+        </div>
+        <div @click="case_23_click" class="case case-23">
+            <h1 class="pion">{{ c23_xo }}</h1>
+        </div>
+        <div @click="case_31_click" class="case case-31">
+            <h1 class="pion">{{ c31_xo }}</h1>
+        </div>
+        <div @click="case_32_click" class="case case-32">
+            <h1 class="pion">{{ c32_xo }}</h1>
+        </div>
+        <div @click="case_33_click" class="case case-33">
+            <h1 class="pion">{{ c33_xo }}</h1>
+        </div>
+
+    </div>
+
+    <div class="game-turn">
+        <h2>C'est à {{ tour }} de jouer!</h2>
+    </div>
+
+</div>

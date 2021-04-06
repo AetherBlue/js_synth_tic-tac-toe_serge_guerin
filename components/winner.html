@@ -1,0 +1,22 @@
+<div class="winner">
+    <div class="winner-title">
+
+    </div>
+    <div class="winner-is">
+        <!-- v-if and v-else selon nul ou a winner -->
+            <h1 v-if="!draw">
+                The winner is: {{ winner }}
+            </h1>
+            <h1 v-else="draw">
+                C'est un match nul!
+            </h1>      
+    </div>
+
+    <div class="winner-play-again">
+       
+        <!-- Bouton Play Again -->
+        <button @click="$emit('wanna-play')">Rejouer?</button>
+
+    </div>
+
+</div>
